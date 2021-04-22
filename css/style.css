@@ -90,7 +90,7 @@ section#background img#front{
     /* transform: translateY(100px); */
 }
 
-section#personal{
+section#personal-wrapped{
     position: relative;
     color:#fff;
     background: #1c0522;
