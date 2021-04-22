@@ -117,3 +117,41 @@ section#personal-wrapped{
 .hovered-link{
     color:white;
 }
+section#personal-wrapped .personal-img-wrapped {
+    border:3px solid #fff;
+    border-radius:20px;
+    padding:10px;
+}
+section#personal-wrapped .personal-img-wrapped img{
+    display:block;
+    margin:0px auto;
+    width:100%;
+}
+section#personal-wrapped .personal-img-wrapped:hover img{
+    transform: scale(1.25);
+    transition: all .75s ease;
+}
+section#personal-wrapped .personal-info-wrapped .form-control{
+    background:#1c0522;
+    border:none;
+    padding:20px;
+}
+section#personal-wrapped .personal-info-wrapped .form-control h2{
+    text-align: center;
+    font-size:18px;
+    color:#fff;
+    text-transform: uppercase;
+}
+section#personal-wrapped .personal-info-wrapped .form-control>div{
+    color:#fff;
+    margin:10px 0px;
+}
+section#personal-wrapped .personal-info-wrapped .form-control>div b{
+    text-transform: capitalize;
+}
+
+section#personal-wrapped .personal-info-wrapped .form-control ul li{
+    color:#fff;
+    margin:10px 0px;
+    text-transform: capitalize;
+}
